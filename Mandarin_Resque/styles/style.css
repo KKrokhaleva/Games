@@ -40,7 +40,11 @@ body{
 .grinch{
     display: none;
 }
+.buttons-container{
+    display: flex;
+}
 .button{
+    justify-content: space-between;
     border:  1px solid #553e38;
     padding: 5px 10px;
     font-size: 14px;
@@ -51,4 +55,5 @@ body{
     cursor: pointer;
     display: flex;
     align-items: center;
+    margin: 0 15px 0 10px;
 }
