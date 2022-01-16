@@ -12,6 +12,22 @@ body{
     flex-direction: column;
     align-items: center;
     margin: auto;
+    position: relative;
+}
+.radio-level{
+    display: flex;
+    margin: 35px 0 0 0;
+    font-size: 20px;
+    color: darkslategray;
+}
+.level{
+    position: absolute;
+    top: 13%;
+    left: -70%;
+}
+.level p{
+    font-size: 25px;
+    color: darkslategray;
 }
 .game-canvas{
     display: flex;
@@ -21,6 +37,13 @@ body{
     height: 300px;
     background-color: white;
     position: relative;
+}
+.hat{
+    position: absolute;
+    left: 95%;
+    top: -28%;
+    z-index: 5;
+    transform: rotate(40deg);
 }
 .game-title{
     text-transform: uppercase;

@@ -9,8 +9,29 @@
 </head>
 <body>
 <div class="game-container">
+    <div class="level">
+        <form >
+            <p>Select difficultly:</p>
+            <div class="radio-level">
+                <input type="radio" id="levelThree"
+                       name="level" value="professional">
+                <label>Professional</label>
+            </div>
+            <div class="radio-level">
+                <input type="radio" id="levelTwo"
+                       name="level" value="experienced">
+                <label>Experienced</label>
+            </div>
+                <div class="radio-level">
+                <input type="radio" id="levelOne"
+                       name="level" value="Beginner" checked>
+               <label>Beginner</label>
+                </div>
+        </form>
+    </div>
     <h1 class="game-title"> Mandarin Resque</h1>
     <div class="game-canvas">
+        <img class="hat" src="img/hat.png" alt="Santa hat">
         <div class="icon" id="icon">
             <img class="mandarin" id="mandarin" src="img/mandarin.png" alt="картинка с мандаринкой">
             <img class="grinch" id="grinch" src="img/grinch.png" alt="картинка с изображением Гринча">
@@ -18,7 +39,7 @@
     </div>
     <div class="game-info">
         <p class="mandarin-amount" id="mandarinsAmount">You caught 0 mandarin</p>
-        <p class="game-time" id="gameTime">15 seconds left</p>
+        <p class="game-time" id="gameTime">60 seconds left</p>
         <div class="buttons-container">
             <button class="button" id="startButton">Start</button>
             <button class="button" id="restartButton">Restart</button>
